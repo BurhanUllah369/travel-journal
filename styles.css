@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: lightgray;
+}
+
+/* header */
+
+
+.container {
+    background-color: white;
+    width: 50%;
+    margin: auto;
+    font-family: 'Inter', sans-serif;
+    padding-bottom: 80px;
+}
+.header {
+    background-color: #F55A5A;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-bottom: 30px;
+}
+.header h1 {
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+.header .icon {
+    margin-top: 5px;
+}
+
+/* card */
+
+
+.card {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    border-bottom: 1px solid #F5F5F5;
+    padding: 40px 0;
+}
+.card .img {
+    position: relative;
+    width: 30%;
+    height: 250px;
+}
+.card .details {
+    width: 60%;
+    margin: auto;
+}
+.card img {
+    position: absolute;
+    border-radius: 5px;
+    background-position: center;
+    background-size: cover;
+    width: 100%; 
+    height: 100%;   
+}
+.card .location {
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.2em;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.card h1 {
+    font-weight: 700;
+    font-size: 36px;
+    padding-top: 5px;
+}
+.card .date {
+    font-weight: 700;
+    padding-top: 25px;
+    font-size: 18px;
+}
+.card .description {
+    padding-top: 8px;
+    font-weight: 400;
+    color: #2B283A;
+}
+.card .icon {
+    color: #F55A5A;
+}
+.card .location-container {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.card .location-container .maps {
+    text-decoration: underline;
+    color: #918E9B;
+}
